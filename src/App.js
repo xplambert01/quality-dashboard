@@ -1,5 +1,5 @@
 import React from "react";
-//import logo from "./logo.svg";
+import logo from "./logo.svg";
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
         fontFamily: "reboto",
       }}
     >
+      <img src={logo} alt="Quality Logo" />
       <h1 style={{ color: "#6ec177", margin: 0 }}>wah gwan soon come</h1>
       <p> whats up comming soon </p>
     </div>
